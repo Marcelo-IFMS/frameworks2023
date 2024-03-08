@@ -1,5 +1,5 @@
 var express = require('express');
-var app = express();
+var app = express();//teste
 
 app.get('/', function(req, res){
 	res.send('<html><body><h1>chamar qualquer coisa</h1></body></html>');
