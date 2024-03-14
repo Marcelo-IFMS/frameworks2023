@@ -11,7 +11,6 @@ var server = http.createServer(function(req,res){
 	}else{
 		res.end('<html><body><h1>Portal de Not&iacute;cias IFMS</h1></body></html>');
 	}
-	// res.end('<html><body><h1>Promeiro Projeto</h1></body></html>')
 });
 
 server.listen(3000);
